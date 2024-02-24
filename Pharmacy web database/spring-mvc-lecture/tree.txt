@@ -1,0 +1,23 @@
+Listening for transport dt_socket at address: 8001
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< org.example:spring-mvc-lecture >-------------------
+[INFO] Building spring-mvc-lecture 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ spring-mvc-lecture ---
+[INFO] org.example:spring-mvc-lecture:war:1.0-SNAPSHOT
+[INFO] +- org.springframework:spring-web:jar:5.3.9:compile
+[INFO] |  +- org.springframework:spring-beans:jar:5.3.9:compile
+[INFO] |  \- org.springframework:spring-core:jar:5.3.9:compile
+[INFO] |     \- org.springframework:spring-jcl:jar:5.3.9:compile
+[INFO] \- org.springframework:spring-webmvc:jar:5.3.9:compile
+[INFO]    +- org.springframework:spring-aop:jar:5.3.9:compile
+[INFO]    +- org.springframework:spring-context:jar:5.3.9:compile
+[INFO]    \- org.springframework:spring-expression:jar:5.3.9:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.054 s
+[INFO] Finished at: 2022-11-29T23:54:46+02:00
+[INFO] ------------------------------------------------------------------------

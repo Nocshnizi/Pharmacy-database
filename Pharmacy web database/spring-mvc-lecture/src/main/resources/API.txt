@@ -1,0 +1,58 @@
+- запросити чи є у певної людини сертифікат вакцинації
+- Додати сертифікат вакцинації
+
+
+HTTP API:
+- URL
+- Request body
+- HTTP Method
+- Headers
+
+- запит вакцинації - завантажити сертифікат вакцинації для певної людини
+Простий HTTP API
+
+- method: POST
+- URL: http://localhost:8080/дія/vaccination/load
+- URL: http://localhost:8080/дія/vaccination/loadById
+- Request Body:
+{
+    "userid": "123544"
+}
+- Response {
+    id: "11111",
+    validUntil: "11.01.2027",
+    .....
+}
+
+REST API:
+- URL: http://localhost:8080/дія/vaccination/certifications?userid={userid}
+- method: GET
+- Request Body:
+- Response: {
+                id: "11111",
+                validUntil: "11.01.2027",
+                .....
+            }
+
+
+- додати сертифікат вакцинації
+- method: POST
+- URL: http://localhost:8080/дія/vaccination/add
+- Request Body:
+{
+    "userid": "123544",
+    "id": 77777
+    validUntil: "11.01.2027"
+}
+
+- додати сертифікат вакцинації
+- method: POST
+- URL: http://localhost:8080/дія/vaccination/certifications
+- Request Body:
+{
+    "userid": "123544",
+    "id": 77777
+    validUntil: "11.01.2027"
+}
+
+Response code: 200
